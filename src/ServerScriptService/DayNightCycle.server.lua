@@ -9,7 +9,7 @@ local RunService = game:GetService("RunService")
 local cycleLengthInSeconds = 600  -- Ejemplo: 600 segundos = 10 minutos para un ciclo completo
 
 -- Hora de inicio (en formato decimal, 0 a 24). Por ejemplo, 6 = 6:00 AM
-local currentTime = 18
+local currentTime = 8
 
 -- Calcula cuántas "horas virtuales" avanzamos por segundo real
 local hoursPerSecond = 24 / cycleLengthInSeconds
